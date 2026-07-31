@@ -544,7 +544,7 @@
   /* ── Investment ── */
   .money-row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0;
     margin: 0 0 40px 116px;
     border-top: 1px solid var(--line);
@@ -1264,14 +1264,10 @@
   <div class="money-row reveal d3">
     <div class="money">
       <div class="money-amount">₹5,00,000</div>
-      <div class="money-label">Base project cost</div>
+      <div class="money-label">Project cost</div>
     </div>
     <div class="money">
-      <div class="money-amount">₹90,000</div>
-      <div class="money-label">GST @ 18%</div>
-    </div>
-    <div class="money">
-      <div class="money-amount">₹5,90,000</div>
+      <div class="money-amount">₹5,00,000</div>
       <div class="money-label">Total payable</div>
     </div>
   </div>
@@ -1282,8 +1278,6 @@
         <th>Installment</th>
         <th>Milestone</th>
         <th>%</th>
-        <th>Base</th>
-        <th>GST</th>
         <th>Payable</th>
       </tr>
     </thead>
@@ -1292,41 +1286,31 @@
         <td><span class="pay-badge">1st</span></td>
         <td>Kickoff and agreement signing</td>
         <td>25%</td>
-        <td>₹1,25,000</td>
-        <td>₹22,500</td>
-        <td><strong>₹1,47,500</strong></td>
+        <td><strong>₹1,25,000</strong></td>
       </tr>
       <tr>
         <td><span class="pay-badge">2nd</span></td>
         <td>Phases 1–2 — Admin + distribution</td>
         <td>25%</td>
-        <td>₹1,25,000</td>
-        <td>₹22,500</td>
-        <td><strong>₹1,47,500</strong></td>
+        <td><strong>₹1,25,000</strong></td>
       </tr>
       <tr>
         <td><span class="pay-badge">3rd</span></td>
         <td>Phase 3 — PG, POS, and QR</td>
         <td>25%</td>
-        <td>₹1,25,000</td>
-        <td>₹22,500</td>
-        <td><strong>₹1,47,500</strong></td>
+        <td><strong>₹1,25,000</strong></td>
       </tr>
       <tr>
         <td><span class="pay-badge">4th</span></td>
         <td>Final delivery, UAT, production</td>
         <td>25%</td>
-        <td>₹1,25,000</td>
-        <td>₹22,500</td>
-        <td><strong>₹1,47,500</strong></td>
+        <td><strong>₹1,25,000</strong></td>
       </tr>
       <tr class="total-row">
         <td></td>
         <td>Grand total</td>
         <td>100%</td>
         <td>₹5,00,000</td>
-        <td>₹90,000</td>
-        <td>₹5,90,000</td>
       </tr>
     </tbody>
   </table>
@@ -1344,9 +1328,9 @@
 
   <ul class="terms-list reveal d2">
     <li>This proposal is valid for <strong>15 days</strong> from the date of issue (July 28, 2026). After that, scope and pricing may be revised.</li>
-    <li>The 1st installment (<strong>₹1,47,500</strong> incl. GST) is due on agreement signing and is <strong>non-refundable</strong> once development starts.</li>
+    <li>The 1st installment (<strong>₹1,25,000</strong>) is due on agreement signing and is <strong>non-refundable</strong> once development starts.</li>
     <li>Each later installment is due within <strong>5 business days</strong> of milestone confirmation.</li>
-    <li>Amounts are in INR. GST at 18% applies on the base and will be invoiced with a valid GSTIN.</li>
+    <li>Amounts are in INR and are all-inclusive for the agreed project scope.</li>
     <li>Scope is limited to the seven modules listed here. Extra features or integrations are quoted as change requests.</li>
     <li>Third-party API costs (PG, KYC, BBPS/AEPS aggregators, SMS/email) are <strong>not included</strong> and are paid directly by One Touch Solution.</li>
     <li>Cloud hosting (AWS/server) is <strong>not included</strong> and is borne by the client or billed at actuals.</li>
